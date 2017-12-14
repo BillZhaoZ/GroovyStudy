@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleView">
+
+        <attr name="circle_color" format="color">#98ff02</attr>
+        <attr name="circle_size" format="integer">100</attr>
+        <attr name="circle_title" format="string">一江夜雨</attr>
+
+    </declare-styleable>
+
+</resources>
