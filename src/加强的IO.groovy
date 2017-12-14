@@ -6,7 +6,7 @@ class 加强的IO {
     static main(args) {
 
         // 1. 读文件  双参数
-        def file = new File("a.txt")
+        def file = new File("test.txt")
         println "read file using two parameters"
 
         file.eachLine { line, lineNo ->
