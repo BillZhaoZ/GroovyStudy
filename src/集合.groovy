@@ -1,7 +1,7 @@
 /**
  * 遍历
  */
-class 集合遍历 {
+class 集合 {
 
     static void main(args) {
 
