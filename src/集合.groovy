@@ -32,6 +32,15 @@ class 集合 {
         file.eachLine { line ->
             println "${line}"
         }
+
+        // 4.遍历3
+        def test4 = ["id": 100, "name": "Bill", "isMale": true]
+        test4["id"] = 2 // id改成2
+        test4.id = 900  // id改成900
+
+        println test4.id
+        println test4.isMale
+        println test4.name
     }
 
 }
